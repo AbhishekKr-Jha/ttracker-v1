@@ -1,0 +1,23 @@
+.reminderIndicator {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(8, 227, 8);
+    border-radius: 100%;
+    box-shadow: 0 0 0 rgba(22, 245, 59, 0.7);
+    animation: pulse 2.2s infinite;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(22, 245, 59, 0.7);
+    }
+    70% {
+      box-shadow: 0 0 0 10px rgba(101, 239, 124, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }

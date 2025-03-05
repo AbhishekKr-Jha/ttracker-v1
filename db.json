@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "10101",
+      "task": "Complete project 1",
+      "day": "Monday",
+      "reminder": true
+    },
+    {
+      "id": "20202",
+      "task": "Attend team meeting",
+      "day": "Thursday",
+      "reminder": false
+    },
+    {
+      "id": "91166",
+      "task": "Saved in builtIn json file ",
+      "day": "Monday",
+      "reminder": true
+    },
+    {
+      "id": "30177",
+      "task": "CRUD using json server",
+      "day": "Monday",
+      "reminder": true
+    }
+  ]
+}
